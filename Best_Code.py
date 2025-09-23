@@ -9,9 +9,9 @@ ALERT_THRESHOLD = 0.75
 ALERT_COOLDOWN = 30  # seconds between alerts for same ID
 
 # Email settings
-SENDER_EMAIL = "pareshkulkarni2376@gmail.com"
-APP_PASSWORD = "tevv vtih zsti htke"
-RECIPIENT_EMAIL = "lastknightout2004@gmail.com"
+SENDER_EMAIL = ""
+APP_PASSWORD = ""
+RECIPIENT_EMAIL = ""
 
 # ===================== DEVICE =====================
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
